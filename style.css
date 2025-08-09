@@ -13,18 +13,27 @@ body {
 
 .sec-princ {
   display: flex;
+  /* width: 100vh;*/
 }
 
 .sidebar {
-  display: flex;
-  background-color: yellowgreen;
+  /*display: flex;
+  background-color: white;
   flex-direction: column;
+  padding: none;
+  border: none;*/
+  margin: none;
+  border-right: 1px solid #ccc;
+  padding: 5px;
 
 }
 
 .contact-list {
   list-style: none;
+
 }
+
+
 
 .contact,
 .contact-online {
@@ -32,6 +41,7 @@ body {
   align-items: center;
   gap: 15px;
   padding: 10px 0px;
+  height: 55px;
 }
 
 
@@ -63,4 +73,12 @@ body {
 .status-online::before {
   content: "• ";
   color: green;
+}
+
+.search {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
 }
