@@ -37,7 +37,30 @@ body {
 
 .contact img,
 .contact-online img {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
+}
+
+.contact h4,
+.contact-online h4 {
+  margin-bottom: 4px;
+  font-size: 20px;
+
+}
+
+.status,
+.status-online {
+  font-size: 15px;
+  color: #666;
+}
+
+.status::before {
+  content: "• ";
+  color: red;
+}
+
+.status-online::before {
+  content: "• ";
+  color: green;
 }
