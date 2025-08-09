@@ -1,6 +1,6 @@
 * {
-  padding: none;
-  margin: none;
+  padding: 0;
+  margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -17,14 +17,8 @@ body {
 }
 
 .sidebar {
-  /*display: flex;
-  background-color: white;
-  flex-direction: column;
-  padding: none;
-  border: none;*/
-  margin: none;
   border-right: 1px solid #ccc;
-  padding: 5px;
+  padding: 25px;
 
 }
 
@@ -41,7 +35,6 @@ body {
   align-items: center;
   gap: 15px;
   padding: 10px 0px;
-  height: 55px;
 }
 
 
