@@ -78,3 +78,42 @@ body {
   border-radius: 5px;
   height: 25px;
 }
+
+.contact:hover,
+.contact-online:hover {
+  background-color: rgb(199, 186, 186);
+  border-radius: 10px;
+}
+
+.info-chat {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+
+}
+
+.chat-header {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+.chat-header img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.chat-header h3 {
+  font-size: 15px;
+  margin-right: auto;
+}
+
+.chat-header p {
+  font-size: 10px;
+  color: rgb(19, 14, 14);
+}
