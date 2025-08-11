@@ -221,4 +221,18 @@ main {
 .aiden {
   background-color: rgb(219, 219, 219);
   border-radius: 10px;
+
+
+}
+
+@media(max-width:555px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media(max-width:480px) {
+  .sidebar {
+    display: none;
+  }
 }
