@@ -86,6 +86,7 @@ body {
 .contact-online:hover {
   background-color: rgb(219, 219, 219);
   border-radius: 10px;
+  transform: scale(1.05);
 }
 
 .info-chat {
@@ -125,6 +126,7 @@ body {
 .chat-actions {
   display: flex;
   gap: 10px;
+  padding: 15px;
 }
 
 .chat-actions button {
@@ -133,11 +135,13 @@ body {
   font-size: 15px;
   background-color: transparent;
   border: none;
+  transition: 0.3;
 }
 
 .chat-actions button:hover {
   background-color: rgb(219, 219, 219);
   border-radius: 10px;
+  transform: scale(1.05);
 }
 
 main {
@@ -172,6 +176,11 @@ main {
   padding: 5px;
 }
 
+.timestamp {
+  color: #979494;
+  font-size: 10px;
+}
+
 .chat {
   display: flex;
   flex-direction: column;
@@ -198,10 +207,18 @@ main {
   cursor: pointer;
   font-size: 18px;
   background-color: transparent;
+  transition: 0.3;
 }
 
 .chat-footer button:hover {
   background-color: rgb(219, 219, 219);
   border-radius: 10px;
+  transform: scale(1.05);
+}
 
+
+
+.aiden {
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
 }
